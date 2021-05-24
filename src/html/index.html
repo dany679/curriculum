@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Curriculum</title>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+ <script>
+  $(document).ready(()=>{
+     $('#header').load("header.html");
+  });
+  </script>
+  </head>
+<body>
+  <!-- <div w3-include-html="./header.html"></div> -->
+  <div id="header"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 d-flex text-color">
+        <div class="align-self-center">
+          <h1 class="my-title display-4">Hí, I’ am Danielly</h1>
+          <h2 class="my-subtitle">I design beautiful websites & mobile, also am student</h2> 
+          <h6 class ='mb-4'>all this web site has desing use figma, you can se in this link, just need one account</h6> 
+          <div class="btn btn-dark"> <a id='icons'href="https://icons8.com/icons/set/social-media"target="_blank" > Figma</a></div >
+        </div>
+     </div>
+      <div class="col-md-6 d-none d-md-block">
+
+        <img id="img" src="../imgs/me.svg" alt="">
+
+        </div>
+    </div>
+
+  </div>
+
+  <div w3-include-html="./footer.html"></div>
+  <script>w3.includeHTML();</script>
+</body>
+</html>

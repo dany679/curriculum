@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Pridi&display=swap" );
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Pridi&display=swap');
 /* header */
+body{
+  background-color: #048A81;
+}
 #logo{
   
   font-family: 'Pridi';
-  text-shadow: 2px 4px #420F0F;
-  color: #AFD8F2;
+  color: whitesmoke;
+  text-shadow: 2px 2px #AFD8F2;
+   /* #420F0F; */
   font-size: 2.7rem;
   
 }
@@ -31,7 +35,7 @@
   position: relative; 
   padding: 15px 0;
 }
-.underlineEffects a {
+.underlineEffects a, .underlineEffectsFooter a{
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -40,7 +44,7 @@
   padding: 15px 20px;
   position: relative;
 }
-.underlineEffects a:after {    
+.underlineEffects a:after ,.underlineEffectsFooter a::after{    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -52,16 +56,26 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.underlineEffects a:hover:after { 
+.underlineEffects a:hover:after, .underlineEffectsFooter a:hover:after { 
   width: 100%; 
   left: 0; 
 }
-
+/* home */
+#img{
+  width: 100%;
+  height: 100%;
+}
+.text-color{
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
 /* footer */
 footer a{
   text-decoration: none;
   color: white;
 }
 #icons{
-  color: rgb(160, 103, 103);
+  text-decoration: none;
+  color: white;
 }
