@@ -4,6 +4,10 @@
 body{
   background-color: #048A81;
 }
+.icons-use i{
+  font-size: 62px;
+  padding-left: 0.1em;
+}
 #logo{
   
   font-family: 'Pridi';
@@ -65,17 +69,44 @@ body{
   width: 100%;
   height: 100%;
 }
-.text-color{
+.text-home{
   color: white;
   padding-bottom: 100px;
   padding-top: 100px;
+  font-family: 'Pridi';
 }
+.icons, .icons:hover{
+  text-decoration: none;
+  color: white;
+}
+
 /* footer */
-footer a{
+footer a, footer a:hover{
   text-decoration: none;
   color: white;
 }
-#icons{
-  text-decoration: none;
-  color: white;
+
+
+/* btn-footer */
+.btn-footer .btn-outline-primary:hover {
+  background-color: #048A81;
+}
+.btn-footer .btn-outline-primary  {
+  border-color: #048A81;
+}
+.btn-footer .btn-primary:hover {
+  background-color: #048A81;
+}
+.btn-footer .btn-primary  {
+  background-color: #048A81;
+  border: #048A81;
+}
+.icons-use .fa-instagram:hover {
+  color: #C1666B;
+}
+.icons-use .fa-linkedin-square:hover {
+  color: #42c9c0;
+}
+.icons-use .fa-github:hover {
+  color: #717568;
 }

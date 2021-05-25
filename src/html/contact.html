@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script defer src="../../fontawesome-free-5.15.3-web/js/all.js"></script> <!--load all styles -->
+ <script>
+  $(document).ready(()=>{
+     $('#header').load("header.html");
+  });
+  </script>
+  </head>
+<body>
+  <!-- <div w3-include-html="./header.html"></div> -->
+  <div id="header"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 d-none d-md-block">
+        <img id="img" src="../imgs/me.svg" alt="">
+      </div>
+      <div class="col-md-6 d-flex text-home mt-5 ">
+        <div class="align-self-center mt-5">
+          <h1 class="my-title display-4">Contact info</h1>
+          <h2 class="my-tytle mt-3">EMAIL ADRESS</h2> 
+          <h3 class="my-subtitle mb-3 d-inline">daniellyrosedev@gmail.com </h3> <a href="#!"onclick="setClipboard('daniellyrosedev@gmail.com','clip1')" class="icons "><i id="clip1" class="fa fa-clipboard fa-2x"></i></a>
+          <h2 class="my-tytle mt-3">PHONE NUMBER</h2> 
+          <h3 class="my-subtitle d-inline">+55(38)9-998273087 </h3><a href="#!"onclick="setClipboard('+55(38)9-998273087','clip2')" class="icons "><i id='clip2'class="fa fa-clipboard fa-2x"></i></a>
+      
+        </div>
+      
+     </div>
+  
+    </div>
+
+  </div>
+
+  <div w3-include-html="./footer.html"></div>
+  <script>w3.includeHTML();</script>
+</body>
+</html>
+<script>
+  function setClipboard(text,clipId) {
+    navigator.clipboard.writeText(text).then(()=> {
+      document.getElementById(clipId).classList.remove('fa-clipboard');
+      document.getElementById(clipId).classList.add('fa-clipboard-check');
+      setTimeout(()=>{
+        document.getElementById(clipId).classList.remove('fa-clipboard-check');
+        document.getElementById(clipId).classList.add('fa-clipboard');
+      },3000)
+      /* clipboard successfully set */
+    }, ()=> {
+  alert('error try to copy'+text);
+  /* clipboard write failed */
+});
+}
+</script>
