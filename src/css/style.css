@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pridi&display=swap" );
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Pridi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@300&display=swap');
 /* header */
 body{
   background-color: #048A81;
@@ -78,6 +80,13 @@ body{
 .icons, .icons:hover{
   text-decoration: none;
   color: white;
+}
+/* contact */
+.my-title{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.my-subtitle{
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* footer */

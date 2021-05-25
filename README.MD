@@ -1,10 +1,10 @@
-<h1 align="center">
-  <!-- <img alt="WebChat" title="Webchat" src="https://i.imgur.com/Veqm7Gh.png" width="220px" /> -->
-</h1>
+![home](https://user-images.githubusercontent.com/59980463/119441351-61970600-bcfc-11eb-9de9-07f1d8fbe72b.png)
+
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#-Tecnologias">Tecnologias</a>
 
 
 <p align="center">
@@ -16,8 +16,10 @@
 <br>
 
 <p align="center">
-  <!-- <img alt="dev.finances" 
-  src=".github/jobscalc.png" width="100%"> -->
+  por favor use live  server para ver o web site
+</p>
+<p align="center">
+  plis use live server for see the web site
 </p>
 
 ## 🚀 Tecnologias
