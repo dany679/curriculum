@@ -101,10 +101,13 @@ footer a, footer a:hover{
   background-color: #048A81;
   border: #048A81;
 }
+footer .icons-use a{
+padding-left: 10px;
+}
 .icons-use .fa-instagram:hover {
   color: #C1666B;
 }
-.icons-use .fa-linkedin-square:hover {
+.icons-use .fa-linkedin:hover {
   color: #42c9c0;
 }
 .icons-use .fa-github:hover {
