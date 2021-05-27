@@ -26,7 +26,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- ecma6
+- java script [ecma6]
 - html
 - css
 - figma

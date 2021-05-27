@@ -125,3 +125,6 @@ padding-left: 10px;
 .icons-use .fa-github:hover {
   color: #717568;
 }
+html{
+  overflow-x: hidden;
+}

@@ -12,8 +12,11 @@
     transform: rotateY(180deg)
     
     }
-    .image-flip h6{
-        text-align: center;
+    .image-flip{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
     /* .image-flip:hover .frontside, .image-flip.hover .frontside {
     -webkit-transform: rotateY(180deg);
@@ -82,3 +85,7 @@
      width: 318px;
      height: 180px;
     }
+    html,body{
+      overflow-x: hidden;
+  }
+  
