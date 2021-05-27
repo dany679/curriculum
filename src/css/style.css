@@ -92,7 +92,10 @@ body{
 /* footer */
 footer a, footer a:hover{
   text-decoration: none;
-  color: white;
+  color: wheat;
+}
+.footer-copyright{
+  color: wheat;
 }
 
 
