@@ -43,13 +43,13 @@ O projeto sera um curriculum escrito em css, js, html e bootstrap e planejado no
 
 - [Layout](https://www.figma.com/file/UWGAzexUoPe2MYHUXeuqpt/portifolio-curriculum?node-id=0%3A1)
 
-[eng]Important you must have a figma cont
+[eng]Important you must have a figma an account
 [port]você deve ter uma conta no figma
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. 
-<!-- Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes. -->
+ Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 
 
