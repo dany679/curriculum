@@ -50,7 +50,7 @@ body{
   padding: 15px 20px;
   position: relative;
 }
-.underlineEffects a:after ,.underlineEffectsFooter a::after{    
+.underlineEffects a:after ,.underlineEffectsFooter a::after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -62,6 +62,7 @@ body{
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .underlineEffects a:hover:after, .underlineEffectsFooter a:hover:after { 
   width: 100%; 
   left: 0; 
@@ -88,6 +89,9 @@ body{
 .my-subtitle{
   font-family: 'Montserrat', sans-serif;
 }
+.contact .fa-clipboard:hover{
+color:#212529;
+}
 
 /* footer */
 footer a, footer a:hover{
@@ -95,26 +99,28 @@ footer a, footer a:hover{
   color: wheat;
 }
 .footer-copyright{
-  color: wheat;
+  color: white;
 }
-
-
 /* btn-footer */
 .btn-footer .btn-outline-primary:hover {
   background-color: #048A81;
-}
-.btn-footer .btn-outline-primary  {
   border-color: #048A81;
 }
-.btn-footer .btn-primary:hover {
-  background-color: #048A81;
+.btn-footer .btn-outline-primary  {
+  border-color: #fff;
 }
-.btn-footer .btn-primary  {
-  background-color: #048A81;
-  border: #048A81;
+ footer .btn {
+  border-radius: 20px;
 }
+
 footer .icons-use a{
 padding-left: 10px;
+}
+footer .disable{
+  color: #C1666B;
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
 }
 .icons-use .fa-instagram:hover {
   color: #C1666B;

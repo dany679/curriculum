@@ -37,9 +37,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O projeto sera um curriculum escrito em css, js, html e bootstrap e planejado no figma
 
 # :pencil2: Layout
-[eng]You can see the original by danirosedev@gmail.com in the link Layout.
+[eng]You can see the original by daniellyrosedev@gmail.com in the link Layout.
 
-[port]Para visualizar o Layout original feito por danirosedev@gmail.com no link Layout
+[port]Para visualizar o Layout original feito por daniellyrosedev@gmail.com no link Layout.
 
 - [Layout](https://www.figma.com/file/UWGAzexUoPe2MYHUXeuqpt/portifolio-curriculum?node-id=0%3A1)
 
