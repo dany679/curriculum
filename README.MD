@@ -1,9 +1,9 @@
 ![home](https://user-images.githubusercontent.com/59980463/119441351-61970600-bcfc-11eb-9de9-07f1d8fbe72b.png)
 
-
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://dany679.github.io/curriculum/index.html">Curriculum.io</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#-Tecnologias">Tecnologias</a>
 
 
@@ -14,6 +14,7 @@
 </p>
 
 <br>
+
 
 <p align="center">
   por favor use live  server para ver o web site

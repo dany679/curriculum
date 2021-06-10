@@ -134,3 +134,4 @@ footer .disable{
 html{
   overflow-x: hidden;
 }
+.underlineEffects a::after   {color:#900;}
